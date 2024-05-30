@@ -1,4 +1,4 @@
-#!usr/bin/enc python3
+#!usr/bin/python3
 """
 0-pascal_triangle
 """
@@ -17,4 +17,3 @@ def pascal_triangle(n):
             add_new_row.append(row[j] + row[j + 1])
         triangle.append(add_new_row)
     return triangle 
-    
